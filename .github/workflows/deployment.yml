@@ -19,8 +19,8 @@ jobs:
             - name: Archive production artifact
               uses: actions/upload-artifact@main
               with:
-                name: dist
-                path: dist
+                name: build-files
+                path: build
     deploy:
       name: 🚀 Deploy
       needs: build
@@ -31,8 +31,7 @@ jobs:
         - name: Download artifact
           uses: actions/download-artifact@main
           with: 
-            name: dist
-            path: dist
+            name: build-files
         - name: 📂 Sync files to hosting
           uses: SamKirkland/FTP-Deploy-Action@4.3.3
           with:

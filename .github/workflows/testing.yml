@@ -3,7 +3,6 @@ on: push
 jobs:
   test:
     runs-on: ubuntu-latest
-    test:
     steps:
       - name: Get repository code
         uses: action/checkout@v3

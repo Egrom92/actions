@@ -36,6 +36,6 @@ jobs:
           uses: SamKirkland/FTP-Deploy-Action@4.3.3
           with:
             server: dedi7007.your-server.de
-            username: vdisain_0
-            password: ${{secrets.HETZNER_VDISAIN_0_PASSWORD}}
-            port: 22
+            username: vdisain_6
+            password: ${{secrets.HETZNER_VDISAIN_6_PASSWORD}}
+            port: 21

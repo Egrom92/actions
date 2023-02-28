@@ -38,4 +38,4 @@ jobs:
           with:
             server: dedi7007.your-server.de
             username: vdisain
-            password: ${{secret.HETZNER_VDISAIN_0_PASSWORD}}
+            password: ${{secrets.HETZNER_VDISAIN_0_PASSWORD}}

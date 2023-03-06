@@ -37,3 +37,4 @@ jobs:
             password: ${{secrets.vdisain}}
             port: 22
             server-dir: ~/public_html/matkasuvilad/
+            timeout: 60000

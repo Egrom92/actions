@@ -35,3 +35,4 @@ jobs:
             target-server: dedi7007.your-server.de
             remote-user: vdisain_6
             private-ssh-key: ${{ secrets.SSH_KEY }}
+            ssh-port: 222

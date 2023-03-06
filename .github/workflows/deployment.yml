@@ -35,7 +35,7 @@ jobs:
                   server: dedi7007.your-server.de
                   username: vdisain
                   password: ${{secrets.vdisain}}
-                  port: 22
+                  port: 21
                   server-dir: ~/public_html/matkasuvilad/
                   timeout: 60000
                   protocol: ftps

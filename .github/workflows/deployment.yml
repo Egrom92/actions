@@ -33,6 +33,7 @@ jobs:
           uses: SamKirkland/web-deploy@v1
           with:
             target-server: dedi7007.your-server.de
-            remote-user: vdisain_6
+            remote-user: vdisain
             private-ssh-key: ${{ secrets.SSH_KEY }}
             ssh-port: 222
+            destination-path: ~/public_html/matkasuvilad/

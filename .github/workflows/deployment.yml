@@ -38,4 +38,4 @@ jobs:
             server: dedi7007.your-server.de
             username: vdisain_6
             password: ${{secrets.HETZNER_VDISAIN_6_PASSWORD}}
-            port: 21
+            port: 22

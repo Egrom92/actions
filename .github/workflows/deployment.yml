@@ -40,3 +40,4 @@ jobs:
             username: vdisain_6
             password: ${{secrets.HETZNER_VDISAIN_6_PASSWORD}}
             port: 22
+            protocol: sftp

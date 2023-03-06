@@ -30,10 +30,8 @@ jobs:
           with: 
             name: build-files
         - name: 📂 Sync files to hosting
-          uses: SamKirkland/FTP-Deploy-Action@4.3.3
+          uses: SamKirkland/web-deploy@v1
           with:
-            server: dedi7007.your-server.de
-            username: vdisain_6
-            password: ${{secrets.HETZNER_VDISAIN_6_PASSWORD}}
-            port: 22
-            protocol: ftps
+            target-server: dedi7007.your-server.de
+            remote-user: vdisain_6
+            private-ssh-key: ${{ secrets.SSH_KEY }}

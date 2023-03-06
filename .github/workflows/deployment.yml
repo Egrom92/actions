@@ -36,3 +36,4 @@ jobs:
             username: vdisain
             password: ${{secrets.vdisain}}
             port: 22
+            server-dir: ~/public_html/matkasuvilad

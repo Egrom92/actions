@@ -25,6 +25,7 @@ jobs:
       name: 🚀 Deploy
       needs: build
       runs-on: ubuntu-latest
+      timeout-minutes: 15
       steps:
         - name: Checkout repository
           uses: actions/checkout@v3
